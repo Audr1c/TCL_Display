@@ -1,0 +1,80 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.display-panel {
+    background-color: #1a1a1a;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 800px;
+    max-width: 95%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.header {
+    background-color: #c00;
+    padding: 10px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.departures {
+    padding: 20px;
+}
+
+.departure {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+}
+
+.departure:last-child {
+    border-bottom: none;
+}
+
+.line-info {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.line-logo {
+    background-color: #c00;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-right: 15px;
+    min-width: 60px;
+    text-align: center;
+}
+
+.direction {
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+.time {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+    width: 120px;
+    text-align: right;
+}
